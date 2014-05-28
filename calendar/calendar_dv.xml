@@ -64,7 +64,17 @@
 			<category>Appearance</category>
 			<description>The height in px.</description>
 		</property>
-		<property key="titleAttr" type="attribute" entityProperty="evtEntity">
+        <property key="showWeekNumbers" type="boolean" defaultValue="false">
+          <caption>Show weeknumbers</caption>
+          <category>Appearance</category>
+          <description>Whether or not to show weeknumbers in the calendar. If 'YES' a column with weeknumbers will be added.</description>
+        </property>
+        <property key="weeknumberTitle" type="string" required='false'>
+          <caption>Weeknumber Title</caption>
+          <category>Appearance</category>
+          <description>Title used foor the weeknumber column</description>
+        </property>
+      <property key="titleAttr" type="attribute" entityProperty="evtEntity">
 			<caption>Title</caption>
 			<category>Attributes</category>
 			<description></description>
